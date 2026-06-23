@@ -1,4 +1,5 @@
 import React from 'react';
+import profile from '../profile.png';
 
 export default function Home({ setActiveTab }) {
   return (
@@ -9,7 +10,7 @@ export default function Home({ setActiveTab }) {
         <p className="hero-subtitle"><b>Shaping ideas into reality</b></p>
       </div>
       <div className="profile-image-container">
-          <center><img src='/profile.png' alt="Profile Photo" className="profile-image" /></center>
+          <center><img src={profile} alt="Profile Photo" className="profile-image" /></center>
       </div>
        <div className="hero-text">
           <h3>I am Manthan Khairnar.</h3>
