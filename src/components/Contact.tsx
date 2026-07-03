@@ -1,6 +1,6 @@
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 
-// Define structural parameters to hold user values cleanly inside state
+
 interface FormDataProps {
   name: string;
   email: string;

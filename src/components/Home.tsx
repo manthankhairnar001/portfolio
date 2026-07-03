@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Explicitly type-check custom props being passed down from App controller
 interface HomeProps {
   setActiveTab: (tab: string) => void;
 }

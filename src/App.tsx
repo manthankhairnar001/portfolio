@@ -19,15 +19,12 @@ function App(): React.JSX.Element {
   };
 
   return (
-    <>
-      {/* Dynamic Animated Kinetic Color Canvas Layer */}
+    <> 
       <div className="bg-mesh-wrapper">
         <div className="mesh-blob blob-teal"></div>
         <div className="mesh-blob blob-blue"></div>
         <div className="mesh-blob blob-coral"></div>
       </div>
-
-      {/* Main UI Interface Layer */}
       <div className="portfolio-container">
         <nav className="sidebar">
           

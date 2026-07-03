@@ -23,7 +23,6 @@ export default function About(): React.JSX.Element {
           Vision: <span style={{ fontWeight: '400', color: '#475569' }}>To become a leading 
             front-end engineer who transforms complex codes into seamless, user-friendly digital experiences.</span>
         </p>
-        
       </div>
     </div>
   );
