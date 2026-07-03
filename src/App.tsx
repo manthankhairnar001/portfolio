@@ -30,12 +30,7 @@ function App(): React.JSX.Element {
       {/* Main UI Interface Layer */}
       <div className="portfolio-container">
         <nav className="sidebar">
-          {/* Full-bleed background image element */}
-          <img 
-            src="/sidebar-display.jpg" 
-            alt="Sidebar background" 
-            className="sidebar-bg-image" 
-          />
+          
 
           <div className="logo-area">
             <h2>MANTHAN</h2>
